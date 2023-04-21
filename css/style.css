@@ -118,10 +118,12 @@ a {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  
+  align-items:center;
   margin: auto;
   padding-right: 15px;
   padding-left: 15px;
+  max-width: 1200px;
+  width: 75%;
 }
 
 .logo {
@@ -136,9 +138,6 @@ a {
   display:none;
 }
 
-.menu{
-  padding-top: 10px;
-}
 
 
 .menu-link{
@@ -613,7 +612,8 @@ a {
   display:flex;
   margin:auto;
   width:100%;
-
+  gap:22px;
+  justify-content: center;
 }
 
 
@@ -621,7 +621,7 @@ a {
   display:flex;
   flex-direction: column;
   max-width:347px;
-  margin:0 auto;
+ 
 }
 
 .products-pictures{
@@ -875,7 +875,7 @@ body{
 
   .wrapper {
     max-width:1199px;
-    width:100%;
+    width:91.02%;;
   
   }
 
@@ -887,19 +887,22 @@ body{
 }
 
   .logo {
-    width: 100px;
+    min-width: 161px;
     margin-top:12px;
   }
 
 .noemi-logo {
-    width: 160px;
+    min-width: 161px;
   }
 
 
   .blog-name{
   font-size:0.9em;
   line-height:52px;
-  width:655px;
+  width:79.04%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom:124px;
   margin-top:93px;
   }
 
@@ -1095,9 +1098,11 @@ font-size:17px;
 
 .products{
   max-width:100%;
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding:0px 35px;
   
   }
   
@@ -1110,7 +1115,7 @@ font-size:17px;
 
   
   .products-wrapper{
-  width: calc(50% - 60px);
+    min-width: calc(50% - 12px);
   margin-bottom: 26px;
   }
  
@@ -1143,14 +1148,24 @@ transform: translate(-14px, 0px);
 
 
 
+
+/* tablet additional*/
+@media(min-width:641px) and (max-width:785px){
+.products-wrapper{
+
+  width: calc(50% - 72px);
+
+}
+}
+
+
 /* mobile */
 
 @media(max-width:640px){
 
 
 body{
-  max-width:640px;
-  width:100%;
+  max-width:100%;
 }
 
   .banner {
@@ -1161,8 +1176,10 @@ body{
   }
 
   .title {
-    width: 318px;
-    transform:translate(3px, -66px);
+    
+    padding: 0px 29px;
+    width: 91.94%;
+    transform: translate(0px, -66px);
   }
 
 
@@ -1170,15 +1187,15 @@ body{
 
   display: block;
   width: 100%;
-  position:relative
+  position:relative;
 }
 
 
 .menu-button{
   top: -210px;
-    left: 460px;
+  left: calc(100% - 60px);
+    position:absolute;
 }
-
 
  
 .noemi-logo{
@@ -1339,18 +1356,27 @@ padding-left: 15px;
 }
 
 .products{
-display:block;
-  width:100%;
+  display:block;
   max-width:640px;
-
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.products-wrapper{
+  margin:auto;
+  min-width:100%;
+}
+
+
 
 .pillows, .toy {
   margin-bottom: 22px;
 }
 
+
+.products-pictures{
+  width:85.5%;
+}
 .footer{
 
   width:100%;
@@ -1423,10 +1449,11 @@ display:block;
 .popup-form{
 
   display:none;
-  width:390px;
+  width:23.49%;
   background: #ffffff;
   padding:53px 30px 53px 30px;
   position:relative;
+  top:-510px;
   
 }
 
@@ -1458,7 +1485,7 @@ display:block;
 .select{
   display:block;
   margin-top:7px;
-  width:329px;
+  width:100%;
   height:48px;
   box-sizing: border-box;
   border: none;
@@ -1540,7 +1567,7 @@ display:block;
 
 .share-feedback{
   display:block;
-  width:324px;
+  width:100%;
   margin-top:12px;
  font-size:13px;
  color:#000000;
@@ -1551,7 +1578,7 @@ display:block;
   box-sizing:border-box;
   font-size:13px;
   background-color:#f3f7f6;
-  width:329px;
+  width:100%;
   height:130px;
   outline:none;
   resize: none;
@@ -1563,7 +1590,7 @@ display:block;
 
 .send-button{
   margin-top:24px;
-  width: 329px;
+  width: 100%;
   min-height: 48px;
   outline: none;
   border: none;
@@ -1580,11 +1607,16 @@ display:block;
 
 
 
+
+
 /* pop-up tablet */
 
 
 @media(min-width:641px) and (max-width:1199px){
 
+  .popup-form{
+    width:50.78% ;
+  }
 
   .close-popup{
     background-size:28px;
@@ -1617,7 +1649,7 @@ font-size:18px;
 .popup-form{
   padding:28px 26px 30px 24px;
 
-  width:331px;
+  width:91.94%;
 }
 
 
@@ -1637,26 +1669,24 @@ font-size:18px;
 
     .select{
 
-max-width:278px;
+width:100%;
     }
 
     .share-feedback{
 
-max-width:278px;
+width:100%;
     }
 
     .feedback-space{
 
-max-width:278px;
+width:100%;
     }
 
     .send-button{
 
-max-width:278px;
+width:100%;
     }
     
 
 
 }
- 
-
