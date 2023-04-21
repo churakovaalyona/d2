@@ -873,6 +873,10 @@ body{
 
 }
 
+.banner{
+  min-width:100%;
+}
+
   .wrapper {
     max-width:1199px;
     width:91.02%;;
