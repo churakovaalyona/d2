@@ -88,7 +88,6 @@ a {
 
 .banner {
   width: 100%;
-  margin: auto;
   background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -157,9 +156,7 @@ a {
   margin-right: 0px;
 }
 
-.menu-link:hover {
-  text-decoration: underline;
-}
+
 .menu-list {
   display: flex;
 }
@@ -271,9 +268,9 @@ a {
   font-size:20px;
   text-transform: uppercase;
 }
-.post-name:hover {
-  color: #b59f5b;
-}
+
+
+
 
 .info-container {
   display: flex;
@@ -330,9 +327,6 @@ a {
   margin-left: 0px;
 }
 
-.categories-link:hover {
-  text-decoration: underline;
-}
 
 .post-title{
   display: block;
@@ -346,9 +340,8 @@ a {
   width:360px;
 }
 
-.post-title:hover {
-  color: #b59f5b;
-}
+
+
 
 .aside-titles{
   font-size: 14px;
@@ -356,9 +349,6 @@ a {
   font-weight:bold;
 }
 
-.aside-titles:hover {
-  color: #b59f5b;
-}
 
 .data-author {
   display: flex;
@@ -468,12 +458,8 @@ a {
   border-color: transparent;
 }
 
-.search:focus {
-  outline: none;
-  border-left: solid #cec299;
-  border-bottom: solid #cec299;
-  border-top: solid #cec299;
-}
+
+
 
 .button {
   width: 48px;
@@ -516,9 +502,7 @@ a {
   margin: 23px 15px 16px 0px;
 }
 
-.email:focus {
-  outline: solid #cec299;
-}
+
 
 .subscribe-button {
   width: 272px;
@@ -538,9 +522,6 @@ a {
   text-transform: uppercase;
 }
 
-.subscribe-button:hover {
-  background-color: #323232;
-}
 
 .tags{
   
@@ -554,10 +535,6 @@ a {
   margin-bottom: 6px;
   margin-right: 3px;
   transform:translate(0px, -30px);
-}
-
-.boxes:hover {
-  border: 3px solid #b59f5b;
 }
 
 .boxes-link{
@@ -582,10 +559,6 @@ a {
   font-weight:bold;
   font-size: 14px;
   color: #000000;
-}
-
-.topics-link:hover {
-  color: #b59f5b;
 }
 
 .number-of-pages {
@@ -659,9 +632,7 @@ a {
   color:#b59f5b;
 }
 
-.coloured-link:hover{
-  text-decoration: underline;
-}
+
 
 .price-and-shop{
   display:flex;
@@ -708,10 +679,7 @@ a {
   text-transform: uppercase;
 }
 
-.shop:hover{
 
-  background-color: #323232;
-}
 
 .footer{
   margin: auto;
@@ -861,6 +829,64 @@ a {
 .menu-button {
     display: none;
 }
+
+
+
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+.post-name:hover {
+  color: #b59f5b;
+}
+.post-name:hover {
+  color: #b59f5b;
+}
+.categories-link:hover {
+  text-decoration: underline;
+}
+
+.post-title:hover {
+  color: #b59f5b;
+}
+.aside-titles:hover {
+  color: #b59f5b;
+}
+
+.search:focus {
+  outline: none;
+  border-left: solid #cec299;
+  border-bottom: solid #cec299;
+  border-top: solid #cec299;
+}
+
+.email:focus {
+  outline: solid #cec299;
+}
+.subscribe-button:hover {
+  background-color: #323232;
+}
+
+
+.boxes:hover {
+  border: 3px solid #b59f5b;
+}
+
+
+.topics-link:hover {
+  color: #b59f5b;
+}
+
+
+.coloured-link:hover{
+  text-decoration: underline;
+}
+
+.shop:hover{
+
+  background-color: #323232;
+}
+
 }
 
 
