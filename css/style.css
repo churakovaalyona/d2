@@ -970,6 +970,7 @@ body{
   flex-wrap: wrap;
   flex-direction: row;
   height:502px;
+  margin-bottom:0px;
 }
 
 .trends-post{
