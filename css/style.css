@@ -1533,7 +1533,6 @@ padding-left: 15px;
 
 .form-wrapper::after{
 
-  display:none;
   content: "";
   width: 100%;
   min-height: 3520px;
@@ -1569,13 +1568,11 @@ padding-left: 15px;
 
 
 .popup-form{
-
   display:none;
   width:23.49%;
   background: #ffffff;
   padding:53px 30px 53px 30px;
   position:relative;
-  top:-510px;
   
 }
 
