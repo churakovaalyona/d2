@@ -308,9 +308,7 @@ a {
   margin-bottom: 0px;
 }
 
-.blog-posts {
-  max-width: 380px;
-}
+
 
 .categories-link{
   color: #c2b079;
@@ -846,6 +844,9 @@ a {
   margin-right: 120px;
 }
 
+.blog-posts {
+  max-width: 380px;
+}
 .menu-link:hover {
   text-decoration: underline;
 }
@@ -1057,9 +1058,10 @@ margin-bottom:14px;
 
 .posts{
   margin:0px;
+  width:100%;
 }
 .posts-images {
-  max-width:100%;
+  width:100%;
   margin-bottom:17px;
   height:301px;
   margin-right:0px;
