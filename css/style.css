@@ -120,10 +120,10 @@ a {
   justify-content: space-between;
   align-items:center;
   margin: auto;
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
   max-width: 1200px;
-  width: 75%;
+  
 }
 
 .logo {
@@ -168,13 +168,13 @@ a {
   letter-spacing:-2px;
 }
 .blog-name{
-  padding-top:112px;
+  padding-top:100px;
   text-align: center;
   font-size: 45px;
   font-weight:bold;
   color: #ffffff;
   text-transform: uppercase;
-  line-height:70px;
+  line-height:73px;
   width:42.12%;
   margin:auto;
 }
@@ -281,7 +281,6 @@ a {
 
 .info-container {
   display: flex;
-  justify-content: space-between;
   width: 1200px;
   margin: 0px auto 0px auto;
   padding-right: 15px;
@@ -344,7 +343,7 @@ a {
   margin-top:4px;
   margin-bottom: 26px;
   line-height: 26px;
-  width:360px;
+  width:100%;
 }
 
 
@@ -418,7 +417,6 @@ a {
   color: black;
   text-align: center;
   line-height: 16px;
-  transform: translate(2px, -1px);
 }
 
 .aside-headers::after {
@@ -438,6 +436,10 @@ a {
   text-transform: uppercase;
   text-align: left;
   font-size: 14px;
+  display: block;
+  width: 184px;
+
+  line-height: 17px;
 }
 
 
@@ -445,7 +447,7 @@ a {
   display: flex;
   outline: none;
   outline-offset: 0;
-  margin: 62px 0px 46px 0px;
+  margin: 62px 0px 64px 0px;
   width: 100%;
 }
 
@@ -496,7 +498,7 @@ a {
   outline-offset: 0;
   margin: 0px 15px 90px 0px;
   transform:translate(1px, -23px);
-  margin: 0px 15px 50px 0px;
+  margin: 0px 15px 30px 0px;
 }
 .email {
   box-sizing: border-box;
@@ -532,10 +534,6 @@ a {
 
 
 
-.tags{
-  
-  transform:translate(0px, -28px);
-}
 .boxes{
   display: inline-block;
   border: 3px solid;
@@ -543,7 +541,6 @@ a {
   padding: 4px 13px 1px 13px;
   margin-bottom: 6px;
   margin-right: 3px;
-  transform:translate(0px, -30px);
 }
 
 .boxes-link{
@@ -557,7 +554,7 @@ a {
 
 
 .topics {
-  margin-top: -10px;
+  margin-top: 44px;
   padding: 8px 0px 8px 0px;
 }
 
@@ -615,7 +612,7 @@ a {
   margin:auto;
   border:3px solid #d3c59d;
   margin-top:-32px;
-  padding: 48px 22px 26px 20px;
+  padding: 52px 22px 26px 20px;
   flex:1 1 auto;
 }
 
@@ -837,6 +834,14 @@ a {
 }
 
 
+.trends-post{
+  height: 322px;
+}
+
+.info-container{
+
+  justify-content: space-between;
+}
 .main-info{
   margin-right: 120px;
 }
@@ -895,6 +900,9 @@ a {
   background-color: #323232;
 }
 
+
+
+
 }
 
 
@@ -902,7 +910,6 @@ a {
 @media(min-width:641px) and (max-width:1199px){
 
 body{
-  max-width:1199px;
   min-width:641px;
 
 }
@@ -914,13 +921,11 @@ body{
 }
 
   .wrapper {
-    max-width:1199px;
-    width:96.02%;;
-  
+  width:96%;
+   margin:auto;
   }
 
 .banner{
-
   padding-left:0px;
   padding-right:0px;
   background-image: url("../images/banner-bg-tablet.jpg");
@@ -951,7 +956,7 @@ body{
   width:80.04%;
   margin: auto;
   padding-bottom:124px;
-    margin-top:-20px;
+    margin-top:-8px;
   }
 
   
@@ -970,17 +975,16 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height:502px;
-  margin-bottom:0px;
+  margin-bottom:38px;
 }
 
 .trends-post{
   width:calc(50% - 3px);
-  height: 224px;
+  height: 248px;
   margin-right:3px;
   margin-bottom: 3px;
+  padding-bottom:0px;
 }
-
 
 .trends-even{
   margin-right:0px;
@@ -990,20 +994,25 @@ body{
 
 .third-post, .fourth-post{
  padding-bottom:0px;
-margin-top:-50px;
+
+
 }
 
 .first-categories{
-margin-top:10px;
+margin-top:0px;
+}
+
+.first-post .post-name{
+  width:70%;
 }
 
 .post-name{
 font-size:17px;
-width:78%;
+width:88%;
 }
 
 .borderline{
-  padding: 20px 0px 20px 32px;
+  padding: 33px 0px 30px 30px;
 
 margin-bottom:14px;
 }
@@ -1014,14 +1023,14 @@ margin-bottom:14px;
   width:100vw;
   display: flex;
   justify-content:center;
-  padding-right:35px;
-  padding-left: 35px;
-  margin:auto;
+  padding:0px 35px;
+  margin-bottom:58px;
 }
 
 .main-info {
-  width: calc(70% - 70px);
+  width: 61%;
   padding-right:33px;
+
 }
 
 
@@ -1031,9 +1040,6 @@ margin-bottom:14px;
   margin-bottom: 42px;
 }
 
-.posts::after {
-width:100%;
-}
 
 .blog-posts {
   width: 100%;
@@ -1046,10 +1052,12 @@ width:100%;
 
 
 .categories {
-  margin-bottom:5px;
+  margin-bottom: 10px;
 }
 
-
+.posts{
+  margin:0px;
+}
 .posts-images {
   max-width:100%;
   margin-bottom:17px;
@@ -1060,7 +1068,7 @@ width:100%;
 
 .post-title{
 font-size:17px;
-width: 396px;
+width:100%;
 line-height: 24px;
 
 margin-bottom: 28px;
@@ -1079,13 +1087,16 @@ margin-bottom: 28px;
 line-height: 22px;
 }
 
+
+
 .posts::after {
   content: "";
   display: block;
   background-color: #eeeeee;
-  width: 386px;
+  width: 100%;
   height: 3px;
   margin-top:16px;
+  margin-bottom: 40px;
 }
 
 
@@ -1094,11 +1105,20 @@ line-height: 22px;
 }
 
 .aside-info{
-  width:30%;
+  width:39%;
+}
+
+.aside-headers{
+  transform: translate(3px, 6px);
+}
+
+.aside-headers::after{
+  margin: 12px auto 26px auto;
 }
 
 .side-wrapper{
-  max-width:100%;
+  width:100%;
+  margin: 0px 0px 18px 0px;
 }
 .new-posts{
   width:100%;
@@ -1107,17 +1127,22 @@ line-height: 22px;
 .side-pictures{
   width:34% ;
 }
+.newposts-date{
+  margin-bottom: 10px;
+}
 
 .aside-titles {
   display:block;
-width:100% ;
+min-width:100% ;
 font-size:14px;
+line-height: 16px;
+padding-top: 12px;
 }
 
 
 .search-box{
   width:100%;
-  
+  margin: 68px 0px 56px 0px;
 }
 .search{
   width:80%;
@@ -1134,30 +1159,37 @@ font-size:14px;
 
 .email{
   width:100%;
-  padding:4px 8px 4px 8px;
-  margin:20px 0px 0px 0px;
+  padding: 8px 12px 0px 14px;
+    margin: 20px 0px 20px 0px;
 }
 
 .subscribe-button{
   width:100%;
 }
 
-
+.subscription{
+  transform: translate(0px, 0px);
+}
 
 .topics {
-  margin-top: 18px;
+  margin-top: 38px;
 }
 
 
 
 .topics-list::after {
 width:100%;
-  margin: 11px auto 11px auto;
+margin: 16px auto 13px auto;
 }
 
 
+.products-borderline{
+  padding: 47px 22px 26px 20px;
+}
+
 .products-title{
 font-size:17px;
+width: 100%;
 }
 
 
@@ -1169,20 +1201,23 @@ font-size:17px;
   justify-content: flex-start;
   padding:0px 35px;
   gap:20px;
-  
+  margin-top: 29px;
   }
   
+
   .our-products{
     margin-top:18px;
   
   }
   
-  
+  .products-pictures{
+    height:229px;
+  }
 
   
   .products-wrapper{
     min-width: calc(50% - 12px);
-  margin-bottom: 26px;
+  margin-bottom: 8px;
   }
  
 
@@ -1197,12 +1232,11 @@ font-size:17px;
 }
 
 .address-info{
-  margin:48px 0px 48px 0px;
+  margin:34px 0px 48px 0px;
 }
 
 .socials{
 
-transform: translate(-14px, 0px);
 }
 
 .copyright{
@@ -1281,7 +1315,7 @@ body{
     font-size:26px;
     line-height:35px;
     width:100% ;
-    margin-top:-10px;
+    margin-top: -3px;
   }
 
 
@@ -1295,14 +1329,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-bottom:42px;
+    margin-bottom: 30px;
   }
 
 
 
   .trends-post{
     width:100%;
-    height:230px;
+    height:232px;
     margin-right:0px;
     margin-bottom:3px;
   }
@@ -1310,8 +1344,12 @@ body{
   .borderline{
     max-height:150px;
     margin-top:-100px;
-    padding: 26px 30px 14px 18px;
+    padding: 29px 30px 27px 18px;
   }
+
+.first-post .post-name{
+  width: 80%;
+}
 
   .post-name{
     font-size:16px;
@@ -1323,8 +1361,7 @@ body{
 display: block;
 max-width:640px;
 width:100%;
-
-margin: 0px auto 34px;
+margin: 0px auto 18px;
 }
 
 .main-info{
@@ -1415,13 +1452,19 @@ width:100%;
 
 }
 
+.subscription{
+  transform: translate(-3px, -18px);
+}
+
 .subscribe-box{
   width:100%;
+  margin: 0px 15px 16px 0px;
 }
 
 .email{
   width:100%;
   max-width:640px;
+  margin: 10px 15px 16px 0px;
 }
 
 .button{
@@ -1448,8 +1491,7 @@ width:100%;
   flex-wrap: wrap;
   width:100%;
   max-width:640px;
-
-  margin-top: 48px;
+  margin-top: 18px;
 
 }
 
@@ -1460,9 +1502,12 @@ width:100%;
 }
 
 .topics{
-  margin-top: -28px;
+  margin-top: 24px;
 }
 
+.topics-list::after{
+  margin: 15px auto 14px;
+}
 
 .our-products{
   max-width:640px;
@@ -1483,6 +1528,9 @@ padding-left: 15px;
   min-width:100%;
 }
 
+.products-title{
+  font-size: 17px;
+}
 
 
 .pillows, .toy {
